@@ -15,5 +15,6 @@ namespace TradeAPI.Domain.Entities
         public required decimal Discount { get; set; }
         public Brand Brand { get; set; } 
         public  ICollection<Category> Categories { get; set; }
+        public decimal Price { get; set; }
     }
 }
